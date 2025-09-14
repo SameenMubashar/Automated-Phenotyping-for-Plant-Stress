@@ -5,16 +5,16 @@ This project applies deep learning (MobileNetV2) to automatically detect and cla
 Impact: Early and accurate disease detection can help farmers reduce losses, optimize treatment, and improve food security.
 
 ## Key Features
-	•	Dataset: PlantVillage (Kaggle), with 15 disease/healthy classes.
-	•	Model: MobileNetV2 — efficient, mobile-friendly CNN architecture.
-	•	Performance:
-	•	Test Accuracy: 95.8%
-	•	Macro F1-score: 0.96
-	•	Confusion Matrix: Demonstrates strong classification performance across classes.
-	•	Streamlit App: Built an interactive demo for real-time disease classification.
+
+- **Dataset**: PlantVillage (Kaggle), with 15 disease/healthy classes  
+- **Model**: MobileNetV2 — efficient, mobile-friendly CNN architecture  
+- **Performance**:  
+  - Test Accuracy: **95.8%**  
+  - Macro F1-score: **0.96**  
+  - Confusion Matrix: Demonstrates strong classification performance across classes  
+- **Streamlit App**: Built an interactive demo for real-time disease classification  
 
 ## Results
-Classification Report (excerpt)
 
 ### Classification Report (Selected Classes)
 
@@ -31,20 +31,19 @@ Classification Report (excerpt)
 **Macro Avg F1:** 0.96
 
 ### Confusion Matrix
-
-![Confusion Matrix](./assets/confusionmatrix.png)
+<img src="./assets/confusionmatrix.png" alt="Confusion Matrix" width="500" height="500">
 
 ## Workflow
 ### flowchart 
-![Flowchart](./assets/flowchart.png)
+<img src="./assets/flowchart.png" alt="Work Flow" width="500" height="700">
 
 ## Streamlit Demo
 The project includes a Streamlit web app that allows users to upload leaf images and instantly receive disease predictions.
 
-### Features:
-	•	Upload crop leaf images (Potato, Pepper Bell, Tomato)
-	•	Real-time prediction with probability scores per class
-	•	Visualization of model confidence
+### Features
+- Upload crop leaf images (Potato, Pepper Bell, Tomato)  
+- Real-time prediction with probability scores per class  
+- Visualization of model confidence  
 
 ### Demo Preview.
 
@@ -60,16 +59,15 @@ The project includes a Streamlit web app that allows users to upload leaf images
 
 
 ## Recruiter’s Note
-
 This project demonstrates:
-	•	Proficiency in deep learning (CNNs, MobileNetV2)
-	•	End-to-end ML pipeline: preprocessing → training → evaluation → deployment
-	•	Strong focus on real-world application (agriculture & food security)
-	•	Ability to build production-ready ML apps (Streamlit)
+- Proficiency in deep learning (CNNs, MobileNetV2)  
+- End-to-end ML pipeline: preprocessing → training → evaluation → deployment  
+- Strong focus on real-world application (agriculture & food security)  
+- Ability to build production-ready ML apps (Streamlit)  
 
 ## Next Steps
-	•	Expand dataset with multi-crop coverage (maize, wheat, rice).
-	•	Deploy as a mobile app for on-field usage.
+- Expand dataset with multi-crop coverage (maize, wheat, rice)  
+- Deploy as a mobile app for on-field usage 
 
 
 
